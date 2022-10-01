@@ -1,3 +1,12 @@
+
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const uri = "mongodb+srv://amanjadoo:<password>@cluster0.limbxex.mongodb.net/?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
 require("dotenv").config({ path: "./Keys.env" });
 const { Boom } = require("@hapi/boom");
 const P = require("pino");
