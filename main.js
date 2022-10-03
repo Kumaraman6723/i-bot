@@ -22,11 +22,6 @@ const InstaDownloader = require("./bot_modules/instaDownloader.js");
 const Crypto = require("./bot_modules/crypto.js");
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const mdClient = require("./Db/dbConnection.js");
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
 const DbOperation = require("./Db/dbOperation.js");
 const MsgDetails = require("./bot_modules/msgDetails.js");
 const Compiler = require("./bot_modules/compiler.js");
