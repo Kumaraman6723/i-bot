@@ -4,7 +4,7 @@ const { MongoClient, ServerApiVersion } = require("mongodb");
 
 const mdbUsername = process.env.MDB_USERNAME;
 const mdbPassword = process.env.MDB_PASSWORD;
-const uri = `mongodb+srv://${mdbUsername}:${mdbPassword}@cluster0.br8pm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = mongodb+srv://amanjadoo:<Pubg god1>@cluster0.limbxex.mongodb.net/?retryWrites=true&w=majority;
 console.log(uri);
 
 const mdClient = new MongoClient(uri, {
