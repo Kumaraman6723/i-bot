@@ -2,7 +2,7 @@
     "name": "whatsapp-bot-md",
     "version": "4.0.1",
     "description": "WhatsApp API",
-    "homepage": "https://github.com/chauhanshivam079/I-Bot/blob/main/README.md",
+    "homepage": "https://github.com/Kumaraman6723/i-bot/blob/main/README.md",
     "main": "main2.ts",
     "directories": {
         "lib": "lib"
@@ -23,7 +23,7 @@
     },
     "author": "I-Bot",
     "repository": {
-        "url": "git+https://github.com/chauhanshivam079/I-Bot.git"
+        "url": "git+https://github.com/Kumaraman6723/i-bot.git"
     },
     "dependencies": {
         "@adiwajshing/baileys": "github:adiwajshing/baileys",
