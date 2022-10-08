@@ -12,7 +12,7 @@ class ProductSearch {
             return;
         }
         productName = productName.split(" ").join("+");
-        const url = `https://www.smartprix.com/products/?q=${productName}`;
+        const url = `https://www.smartprix.com/products/${productName}`;
         try {
             // Fetch HTML of the page we want to scrape
             const { data } = await axios.get(url);
